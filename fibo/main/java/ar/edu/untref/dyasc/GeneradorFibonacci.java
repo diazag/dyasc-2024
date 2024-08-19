@@ -23,7 +23,7 @@ public class GeneradorFibonacci {
 	 *** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **/
     public int[] generarFibonacci(int n) {
         
-    	if(n<0){
+    	if(n<=0){
     		serieFibonacci = new int[0];
     	}else{
     		serieFibonacci = new int[n];
