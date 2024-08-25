@@ -62,7 +62,7 @@ public class GeneradorFibonacci {
 
 
 	/*** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **
-	 ** Metodo que invierte el array (serie) que recibe por par·metro.     **
+	 ** Metodo que invierte el array (serie) que recibe por par√°metro.     **
 	 *** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **/
 	public int[] invertirSerie(int[] serie){
 		
