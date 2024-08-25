@@ -21,7 +21,7 @@ public class Ejecutable {
     				if(opciones.length() != 2 ||
     					(!opciones.contains("h") && !opciones.contains("H") && !opciones.contains("v") && !opciones.contains("V")) ||
     					(!opciones.contains("d") && !opciones.contains("D") && !opciones.contains("i") && !opciones.contains("I"))) {
-    					System.out.println("OpciÛn no v·lida");
+    					System.out.println("Opci√≥n no v√°lida");
     					return;
     				}
     				orientacion = opciones.substring(0, 1);
@@ -32,13 +32,13 @@ public class Ejecutable {
     		}
     		
     		if (n <= 0){
-        		System.out.println("El n˙mero entero debe ser mayor que cero.");
+        		System.out.println("El n√∫mero entero debe ser mayor que cero.");
             }else{
             	fibo.imprimirFibonacci(n, orientacion, direccion);
             }
         	
         }catch(NumberFormatException e){
-        	System.out.println("Por favor, debe introducir un n˙mero entero v·lido.");
+        	System.out.println("Por favor, debe introducir un n√∫mero entero v√°lido.");
         }
     }
 }
